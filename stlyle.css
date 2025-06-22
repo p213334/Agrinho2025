@@ -1,0 +1,62 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background: #f0f9f0;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #6cbf84;
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+main {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+.card {
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 0 10px #ccc;
+}
+
+.campo {
+  background-color: #d4f7c5;
+}
+
+.cidade {
+  background-color: #c5e4f7;
+}
+
+.interativo {
+  text-align: center;
+}
+
+button {
+  background-color: #6cbf84;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #58a972;
+}
+
+footer {
+  background-color: #eee;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
