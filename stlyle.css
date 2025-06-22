@@ -1,57 +1,140 @@
+/* Resetando alguns estilos padrões */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fonte e cores principais */
 body {
-  font-family: 'Segoe UI', sans-serif;
-  background: #fff8ec;
-  color: #333;
-  margin: 0;
-  padding: 0;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
 }
 
+/* Container para centralizar os conteúdos */
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* Estilo do cabeçalho */
 header {
-  background-color: #f29f05;
-  color: white;
-  padding: 2rem;
-  text-align: center;
+    background-color: #2c3e50;
+    color: white;
+    padding: 30px 0;
+    text-align: center;
 }
 
-main {
-  padding: 2rem;
-  max-width: 800px;
-  margin: auto;
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
 }
 
-.etapa {
-  background-color: #f4e2b0;
-  margin-bottom: 1.5rem;
-  padding: 1rem;
-  border-radius: 10px;
-  box-shadow: 0 0 10px #ddd;
+header p {
+    font-size: 1.2rem;
 }
 
-.quiz {
-  background-color: #e0f7df;
-  padding: 1rem;
-  text-align: center;
-  border-radius: 10px;
+/* Estilo da seção do mapa */
+#mapa {
+    background-color: #ecf0f1;
+    padding: 30px 0;
+    text-align: center;
 }
 
-button {
-  margin: 0.5rem;
-  padding: 0.75rem 1.5rem;
-  font-size: 1rem;
-  background-color: #f29f05;
-  color: white;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
+#mapa h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
 }
 
-button:hover {
-  background-color: #d38804;
+.mapa-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 }
 
+.mapa-img {
+    width: 45%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Estilo da galeria */
+#galeria {
+    padding: 30px 0;
+    text-align: center;
+}
+
+#galeria h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.gallery-item {
+    width: 45%;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.gallery-item:hover {
+    transform: scale(1.1);
+}
+
+/* Estilo de eventos */
+#eventos {
+    background-color: #34495e;
+    color: white;
+    padding: 30px 0;
+}
+
+#eventos h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.eventos {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.evento {
+    background-color: #ecf0f1;
+    color: #333;
+    padding: 20px;
+    width: 45%;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.evento h3 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+.evento p {
+    font-size: 1.2rem;
+}
+
+/* Estilo do rodapé */
 footer {
-  background-color: #eee;
-  text-align: center;
-  padding: 1rem;
-  margin-top: 2rem;
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
 }
+
+footer p {
+    font-size: 1rem;
+}
+
