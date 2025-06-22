@@ -2,38 +2,35 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Agrinho - Campo e Cidade</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Da Terra ao Prato</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
-    <h1>🌾 Agrinho: Conexão entre o Campo e a Cidade 🏙️</h1>
-    <p>Vamos celebrar a harmonia entre quem planta e quem consome!</p>
+    <h1>🥕 Da Terra ao Prato 🍽️</h1>
+    <p>Entenda como o campo e a cidade trabalham juntos para levar alimentos até sua casa.</p>
   </header>
 
   <main>
-    <section class="card campo">
-      <h2>Vida no Campo 🌻</h2>
-      <p>O campo produz alimentos, cuida da natureza e sustenta as cidades.</p>
+    <section class="etapa">
+      <h2>1️⃣ Plantio no Campo</h2>
+      <p>No campo, agricultores plantam sementes com amor e cuidado.</p>
     </section>
 
-    <section class="card cidade">
-      <h2>Vida na Cidade 🚗</h2>
-      <p>A cidade transforma, distribui e valoriza os produtos do campo.</p>
+    <section class="etapa">
+      <h2>2️⃣ Colheita e Transporte</h2>
+      <p>Após a colheita, os produtos são levados para a cidade em caminhões.</p>
     </section>
 
-    <section class="interativo">
-      <h2>Descubra a Conexão!</h2>
-      <button onclick="mostrarMensagem()">Clique aqui</button>
-      <p id="mensagem"></p>
+    <section class="etapa">
+      <h2>3️⃣ Mercado e Consumo</h2>
+      <p>Nos mercados da cidade, as pessoas compram alimentos frescos vindos do campo.</p>
     </section>
-  </main>
 
-  <footer>
-    <p>Projeto Educativo - Agrinho 2025 🌱</p>
-  </footer>
-
-  <script src="script.js"></script>
-</body>
-</html>
+    <section class="quiz">
+      <h2>🍎 Quiz Rápido</h2>
+      <p>O tomate vem de onde?</p>
+      <button onclick="responder(true)">Do campo</button>
+      <button onclick="responder(false)">Da fábrica</button>
+      <p id="resposta">
